@@ -14,7 +14,7 @@ export default class ShortInfoBlock extends Component {
                     {this.props.header}
                 </h1>
                 <div class="center">
-                    <a href={this.props.link}>
+                    <a class="button-link" href={this.props.link}>
                     <button class={this.props.version == "blue" ? "button-white" : "button-blue"}>
                         JOIN THE DISCORD!
                     </button> </a>
