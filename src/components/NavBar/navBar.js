@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
+import './navBar.css';
 
 export default class NavBar extends Component {    
     render() {
         return (
-            <div>
+            <div className="navBarRow">
                 <a
-                    className="App-link"
+                    className="navBarLink"
                     href="/welcome"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -13,7 +14,7 @@ export default class NavBar extends Component {
                     Welcome
                 </a>
                 <a
-                    className="App-link"
+                    className="navBarLink"
                     href="/schedule"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -21,7 +22,7 @@ export default class NavBar extends Component {
                     Schedule
                 </a>
                 <a
-                    className="App-link"
+                    className="navBarLink"
                     href="/shoutouts"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -29,7 +30,7 @@ export default class NavBar extends Component {
                     Shoutouts
                 </a>
                 <a
-                    className="App-link"
+                    className="navBarLink"
                     href="/about-us"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -37,7 +38,7 @@ export default class NavBar extends Component {
                     About Us
                 </a>
                 <a
-                    className="App-link"
+                    className="navBarLink"
                     href="/sponsors"
                     target="_blank"
                     rel="noopener noreferrer"
