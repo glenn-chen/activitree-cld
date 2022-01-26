@@ -1,19 +1,7 @@
 import React, {Component} from 'react';
 import './welcome.css';
+import ShortInfoBlock from '../ShortInfoBlock/shortInfoBlock';
 
-class ShortDivider extends Component {
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
-        return (
-            <div>
-                <h1>{this.props.header}</h1>
-            </div>
-        );
-    };
-}
 
 export default class Welcome extends Component {    
     render() {
@@ -24,9 +12,13 @@ export default class Welcome extends Component {
                     src="../../../WelcomeBackground.png"
                     alt="WelcomeBackgroundpng">
                 </img>
-                <ShortDivider
+                <ShortInfoBlock
                     header="Join the College Learn-About Day Discord!"
-                    color="black"
+                    version="blue"
+                />
+                <ShortInfoBlock
+                    header="Draw your favorite food and sign your name on the Whiteboard!"
+                    version="white"
                 />
             </div>
         );
