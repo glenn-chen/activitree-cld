@@ -1,8 +1,19 @@
+.navBarTitle {
+    text-align: center;
+}
+
+.navBarImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 7%;
+    margin-top: 3%;
+}
+
 .navBarRow {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
 }
 
 .navBarLink {
