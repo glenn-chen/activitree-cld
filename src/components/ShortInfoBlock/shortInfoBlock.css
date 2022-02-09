@@ -24,11 +24,11 @@ h1 {
     font-size: 42px;
 }
 
-.h1-blue {
+h1.blue {
     color: #06234F;
 }
 
-.h1-white {
+h1.white {
     color: #FFFFFF;
 }
 
@@ -38,11 +38,11 @@ h2 {
     font-size: 18px;
 }
 
-.h2-blue {
+h1.blue {
     color: #06234F;
 }
 
-.h2-white {
+h2.white {
     color: #FFFFFF;
 }
 
@@ -55,22 +55,22 @@ button {
     display: inline-block;
 }
 
-.button-white {
+button.white {
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
 }
 
-.button-blue {
+button.blue {
     border: 1px solid #06234F;
     color: #06234F;
 }
 
-.button-blue:hover {
+button.blue:hover {
     background-color: #06234F;
     color: #FFFFFF;
 }
 
-.button-white:hover {
+button.white:hover {
     background-color: #FFFFFF;
     color: #06234F;
 }
