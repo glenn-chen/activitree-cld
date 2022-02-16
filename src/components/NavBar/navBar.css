@@ -23,3 +23,8 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+.navBarLine {
+    width: 50%;
+    align-self: center;
+}
