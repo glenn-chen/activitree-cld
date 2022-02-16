@@ -7,6 +7,7 @@ import Schedule from './components/Schedule/schedule';
 import Shoutouts from './components/Shoutouts/shoutouts';
 import Sponsors from './components/Sponsors/sponsors';
 import Footer from './components/Footer/footer';
+import About from './components/AboutUs/aboutUs';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
@@ -16,7 +17,8 @@ export default function App() {
       <div>
         <NavBar />
         <Welcome />
-        <Shoutouts />
+        <Shoutouts />        
+        <About />
         <Sponsors />
         <Footer />
       </div>
