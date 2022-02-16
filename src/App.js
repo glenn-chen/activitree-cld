@@ -4,14 +4,23 @@ import React from 'react';
 import NavBar from './components/NavBar/navBar';
 import Welcome from './components/Welcome/welcome';
 import Schedule from './components/Schedule/schedule';
+import Shoutouts from './components/Shoutouts/shoutouts';
+import Sponsors from './components/Sponsors/sponsors';
+import Footer from './components/Footer/footer';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
-function App() {
+
+export default function App() {
   return (
-    <div>
-      <NavBar />
-      <Schedule />
-    </div>
+    <Router>
+      <div>
+        <NavBar />
+        <Welcome />
+        <Shoutouts />
+        <Sponsors />
+        <Footer />
+      </div>
+    </Router>
+    
   );
 }
-
-export default App;

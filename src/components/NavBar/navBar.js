@@ -9,7 +9,8 @@ export default class NavBar extends Component {
                     src="../../../ActivitreeLogo.png"
                     alt="ActivitreeLogopng"
                 />
-                <h2 className="navBarTitle">College Learn-About Day</h2>
+                <h2 className="navBarTitle">College Learn-About Day!</h2>
+                <hr className="navBarLine"></hr>
                 <div className="navBarRow">
                 
                     <a
