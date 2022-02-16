@@ -10,6 +10,9 @@ export default class Carousel extends Component {
                 <div>
                     <img src="../../../NumeradeLogo.png"></img>
                 </div>
+                <div>
+                    <img src="../../../Website.png"></img>
+                </div>
             </Carousel>
         );
     }

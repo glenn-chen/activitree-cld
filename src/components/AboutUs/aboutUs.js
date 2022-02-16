@@ -14,7 +14,9 @@ export default class About extends Component{
                     buttonText="Check out our main website!"
                     link=""
                 />
-                <Carousel></Carousel>
+                <Carousel>
+                    
+                </Carousel>
             </React.Fragment>
         );
     }
