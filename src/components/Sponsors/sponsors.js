@@ -6,7 +6,7 @@ export default class Sponsors extends Component{
         return(
             <React.Fragment>
                 <div className = "sponsorImages">
-                    <img src="../../../NumeradeLogo.png"></img>
+                    <img src="../../../asucd.png"></img>
                     <img src="../../../FSLogo.png"></img>
                 </div>
             </React.Fragment>

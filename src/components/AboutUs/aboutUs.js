@@ -11,7 +11,7 @@ export default class About extends Component{
                     header="Hi, we are Activitree!"   
                     description="Join us from anywhere in learning new things, sharing experiences, and cultivating curiosity!"             
                     version="white"
-                    buttonText="Check out our website!"
+                    buttonText="Check out our main website!"
                     link=""
                 />
                 <Carousel></Carousel>

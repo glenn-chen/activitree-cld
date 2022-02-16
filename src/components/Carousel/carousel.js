@@ -8,7 +8,7 @@ export default class Carousel extends Component {
         return (
             <Carousel>
                 <div>
-                    
+                    <img src="../../../NumeradeLogo.png"></img>
                 </div>
             </Carousel>
         );
