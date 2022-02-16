@@ -3,14 +3,21 @@ import './App.css';
 import React from 'react';
 import NavBar from './components/NavBar/navBar';
 import Welcome from './components/Welcome/welcome';
+import Shoutouts from './components/Shoutouts/shoutouts';
+import Sponsors from './components/Sponsors/sponsors';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
-function App() {
+
+export default function App() {
   return (
-    <div>
-      <NavBar />
-      <Welcome />
-    </div>
+    <Router>
+      <div>
+        <NavBar />
+        <Welcome />
+        <Shoutouts />
+        <Sponsors />
+      </div>
+    </Router>
+    
   );
 }
-
-export default App;
