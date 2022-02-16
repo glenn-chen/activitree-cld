@@ -1,0 +1,43 @@
+h1.schedule-header {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-weight: 800;
+    font-size: 42px;
+    text-align: center;
+    color: #06234F;
+}
+
+span.schedule-time {
+    float: left;
+}
+
+span.schedule-name {
+    position: relative;
+    margin-left: 200px;
+}
+span.schedule-description {
+    float: right;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.time-col {
+    grid-column: 1;
+}
+.name-col {
+    grid-column: 2;
+}
+.description-col {
+    grid-column: 3;
+}
+
+.blah {
+    min-height: 40px;
+    margin-bottom: 20px;
+}

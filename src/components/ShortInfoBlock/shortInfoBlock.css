@@ -16,7 +16,7 @@
     align-items: center;
 }
 
-h1 {
+h3 {
     margin-top: 7%;
     margin-bottom: 5%;
     text-align: center;
@@ -24,25 +24,29 @@ h1 {
     font-size: 42px;
 }
 
-h1.blue {
+h3.blue {
     color: #06234F;
 }
 
-h1.white {
+h3.white {
     color: #FFFFFF;
 }
 
-h2 {
+h3.big {
+    font-size: 60px;
+}
+
+h4 {
     margin-bottom: 5%;
     text-align: center;
     font-size: 18px;
 }
 
-h1.blue {
+h4.blue {
     color: #06234F;
 }
 
-h2.white {
+h4.white {
     color: #FFFFFF;
 }
 

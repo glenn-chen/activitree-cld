@@ -15,14 +15,16 @@ export default class ShortInfoBlock extends Component {
             textVersion = "white";
             buttonVersion = "white";
         }
+        if (this.props.textSize === "big")
+            textVersion += " big"
         
         return (
             <div class={containerVersion}>
                 <br />
-                <h1 class={textVersion}>
+                <h3 class={textVersion}>
                     {this.props.header}
-                </h1>
-                <h2 class={textVersion}>{this.props.description}</h2>
+                </h3>
+                <h4 class={textVersion}>{this.props.description}</h4>
                 <div class="center">
                     <a class="button-link" href={this.props.link}>
                     <button class={buttonVersion}>
