@@ -31,7 +31,6 @@ export default class ShortInfoBlock extends Component {
                         {this.props.buttonText}
                     </button> </a>
                 </div>
-                <br />
             </div>
         );
     };

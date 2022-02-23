@@ -1,6 +1,6 @@
 .welcomeImage {
     display: block;
-    width: 90%;
+    width: 1200px;
     margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
@@ -18,4 +18,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@media (max-width: 912px) {
+    .welcomeImage {
+        width: 100%;
+    }
 }

@@ -9,16 +9,12 @@ import Sponsors from './components/Sponsors/sponsors';
 import Footer from './components/Footer/footer';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
-
 export default function App() {
   return (
     <Router>
       <div>
         <NavBar />
         <Welcome />
-        <Shoutouts />
-        <Sponsors />
-        <Footer />
       </div>
     </Router>
     

@@ -21,7 +21,7 @@ h3 {
     margin-bottom: 5%;
     text-align: center;
     font-weight: 800;
-    font-size: 42px;
+    font-size: 200%;
 }
 
 h3.blue {
@@ -33,13 +33,13 @@ h3.white {
 }
 
 h3.big {
-    font-size: 60px;
+    font-size: 300%;
 }
 
 h4 {
     margin-bottom: 5%;
     text-align: center;
-    font-size: 18px;
+    font-size: 120%;
 }
 
 h4.blue {
@@ -81,4 +81,28 @@ button.white:hover {
 
 .button-link {
     margin-bottom: 7%;
+}
+
+@media (max-width: 768px) {
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 120%;
+    }
+    h3.big {
+        font-size: 160%;
+    }
+
+    h4 {
+        font-size: 100%;
+
+    }
+
+    button {
+        font-size: 70%;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
 }

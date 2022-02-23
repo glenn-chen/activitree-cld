@@ -16,32 +16,19 @@ function EventList(props) {
     let indices = [];
     for (let i = 0; i < events.length; i++)
         indices.push(i);
-
- /*   return (
-        <div>
-            {indices.map(index => (
-                <div>
-                    <span class="schedule-time">{events[index][0]}</span>
-                    <span class="schedule-name">{events[index][1]}</span>
-                    <span class="schedule-description">{events[index][2]}</span>
-                </div>)
-            )}
-        </div>
-    );*/
     return (
         <div class="grid-wrapper">
             <div class="time-col">
-                {indices.map(index => (<div class="blah">{events[index][0]}</div>))}
+                {indices.map(index => (<div class="schedule-line">{events[index][0]}</div>))}
             </div>
             <div class="name-col">
-                {indices.map(index => (<div class="blah">{events[index][1]}</div>))}
+                {indices.map(index => (<div class="schedule-line">{events[index][1]}</div>))}
             </div>
-            <div class="descrirption-col">
-                {indices.map(index => (<div class="blah">{events[index][2]}</div>))}
+            <div class="description-col">
+                {indices.map(index => (<div class="schedule-line">{events[index][2]}</div>))}
             </div>
         </div>
     );
-
 }
 
 export default class Schedule extends Component {
@@ -50,7 +37,6 @@ export default class Schedule extends Component {
             <div>
                 <h1 class="schedule-header">College Learn-About Day Schedule</h1>
                 <EventList />
-                <br />
                 <ShortInfoBlock
                     version="blue"
                     buttonText="GET ZOOM LINK"
