@@ -57,6 +57,7 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    cursor: pointer;
 }
 
 button.white {
@@ -83,7 +84,33 @@ button.white:hover {
     margin-bottom: 7%;
 }
 
+/* iPad mini */
 @media (max-width: 768px) {
+    h3 {
+        margin-top: 30px;
+        margin-bottom: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 140%;
+    }
+
+    h3.big {
+        font-size: 240%;
+    }
+
+    h4 {
+        font-size: 120%;
+    }
+
+    button {
+        font-size: 70%;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Surface Duo */
+@media (max-width: 540px) {
     h3 {
         margin-top: 20px;
         margin-bottom: 0px;
@@ -92,12 +119,11 @@ button.white:hover {
         font-size: 120%;
     }
     h3.big {
-        font-size: 160%;
+        font-size: 140%;
     }
 
     h4 {
         font-size: 100%;
-
     }
 
     button {

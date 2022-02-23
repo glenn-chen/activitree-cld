@@ -29,7 +29,7 @@ h1.schedule-header {
 .name-col {
     grid-column: 2;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 130%;
 }
 
 .description-col {
@@ -49,6 +49,12 @@ h1.schedule-header {
 
     h1.schedule-header {
         font-size: 170%;
+    }
+
+    .grid-wrapper {
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 1%;
     }
 }
 
