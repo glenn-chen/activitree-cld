@@ -2,14 +2,13 @@ import React, {Component} from 'react';
 import ShortInfoBlock from '../ShortInfoBlock/shortInfoBlock';
 import './schedule.css';
 
-const events = [['10 AM', 'Welcome', 'Introduction, sharing resources for the day, and discussing how the event will work'],
-                ['11 AM', 'Davis Kahoot', 'Virtually taking a trip through Davis together with a trivia game.'],
-                ['11:10 AM', 'Mock Lecture', 'Discussing college logistics about admissions, dorming, campus life, perks, and many more resources.'],
-                ['12 PM', 'Lunch', 'Feel free to hop in the zoom and eat lunch together! We\'ll be having a virtual picnic.'],
-                ['1 PM', 'Office Hours', 'Join different breakout rooms to meet with college students and discuss various topics and questions together.'],
-                ['2 PM', 'College Panel', 'Ask questions to a panel of college students and hear about different experiences and college life.'],
-                ['3 PM', 'Closing', 'Wrapping up the event together and discussing next steps and resources.'],
-                ['3:15 PM', 'Bonus Speed Networking', 'The virtual equivalent of talking to people outside after an event. Meet fellow high schoolers and college students, make new friends, and share experiences.']
+const events = [['1:00 - 1:30 PM', 'Kahoot/Ice breakers', 'Learning about Davis through a trivia game and getting to know each other.'],
+                ['1:30 - 2:15 PM', 'Mock Lecture', 'Discussing college logistics about admissions, dorming, campus life, perks, and many more resources.'],
+                ['2:15 - 2:30 PM', 'Break', 'Feel free to get up to get some water or a snack and take a break.'],
+                ['2:30 - 3:15 PM', 'Panel', 'Ask questions to a panel of college students and hear about different experiences and college life.'],
+                ['3:15 - 3:20 PM', 'Break', 'Feel free to get up to get some water or a snack and take a break.'],
+                ['3:20 - 4:00 PM', 'Office Hours', 'Join different breakout rooms to meet with college students and discuss various topics and questions together.'],
+                ['4:00 - 4:30 PM', 'Closing/Buffer', 'Wrapping up the event together and discussing next steps and resources.'],
                 ]
 
 function EventList(props) {
