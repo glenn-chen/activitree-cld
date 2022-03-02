@@ -20,8 +20,14 @@
     transform: translate(-50%, -50%);
 }
 
-@media (max-width: 912px) {
+@media (max-width: 1200px) {
     .welcomeImage {
         width: 100%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .welcomeImage {
+        width: 1400px;
     }
 }
