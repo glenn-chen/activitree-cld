@@ -1,7 +1,6 @@
 {
   "name": "activitree-cld",
   "version": "0.1.0",
-  "homepage": "https://glenn-chen.github.io/activitree-cld",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
@@ -14,8 +13,6 @@
     "web-vitals": "^2.1.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,7 +37,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3",
     "react-router-dom": "^6.2.1"
   }
 }
