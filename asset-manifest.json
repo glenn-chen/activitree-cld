@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/activitree-cld/static/css/main.152979be.css",
+    "main.js": "/activitree-cld/static/js/main.0f932bdc.js",
+    "static/js/787.234eb6fb.chunk.js": "/activitree-cld/static/js/787.234eb6fb.chunk.js",
+    "index.html": "/activitree-cld/index.html",
+    "main.152979be.css.map": "/activitree-cld/static/css/main.152979be.css.map",
+    "main.0f932bdc.js.map": "/activitree-cld/static/js/main.0f932bdc.js.map",
+    "787.234eb6fb.chunk.js.map": "/activitree-cld/static/js/787.234eb6fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.152979be.css",
+    "static/js/main.0f932bdc.js"
+  ]
+}
