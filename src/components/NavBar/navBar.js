@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 import './navBar.css';
+import ActivitreeLogo from '../../assets/ActivitreeLogo.png'
 
 export default class NavBar extends Component {    
     render() {
         return (
             <div>
                 <img className="navBarImage"
-                    src="../../../ActivitreeLogo.png"
+                    src={ActivitreeLogo}
                     alt="ActivitreeLogopng"
                 />
                 <h2 className="navBarTitle">College Learn-About Day!</h2>

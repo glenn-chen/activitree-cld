@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import './footer.css';
+import InstagramLogo from '../../assets/InstagramLogo.png'
+import FacebookLogo from '../../assets/FacebookLogo.png'
+import WebsiteLogo from '../../assets/Website.png'
 
 export default class Footer extends Component {    
     render() {
@@ -7,15 +10,15 @@ export default class Footer extends Component {
             <React.Fragment>
             <div className="socialLinks">
                 <a href = "https://www.instagram.com/learnactivitree/">
-                    <button className="buttonLogo"><img src="../../../InstagramLogo.png"></img> </button>
+                    <button className="buttonLogo"><img src={InstagramLogo}></img> </button>
                 </a>
 
                 <a href = "https://www.facebook.com/LearnActivitree">
-                    <button className="buttonLogo" ><img src="../../../FacebookLogo.png"></img></button>
+                    <button className="buttonLogo" ><img src={FacebookLogo}></img></button>
                 </a>
 
                 <a href = "https://learnactivitree.webflow.io/">
-                    <button className="buttonLogo"><img src="../../../Website.png"></img></button>
+                    <button className="buttonLogo"><img src={WebsiteLogo}></img></button>
                 </a>
             </div>
             <h2>©2022 with ❤️ by Activitree</h2>
