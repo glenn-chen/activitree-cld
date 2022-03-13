@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/collegelearnaboutday.com/static/css/main.152979be.css",
-    "main.js": "/collegelearnaboutday.com/static/js/main.8c781fd2.js",
-    "static/js/787.234eb6fb.chunk.js": "/collegelearnaboutday.com/static/js/787.234eb6fb.chunk.js",
-    "static/media/asucd.png": "/collegelearnaboutday.com/static/media/asucd.68b595a50028858b9bd4.png",
-    "static/media/ActivitreeLogo.png": "/collegelearnaboutday.com/static/media/ActivitreeLogo.b36bf662d9708aa42f36.png",
-    "index.html": "/collegelearnaboutday.com/index.html",
-    "main.152979be.css.map": "/collegelearnaboutday.com/static/css/main.152979be.css.map",
-    "main.8c781fd2.js.map": "/collegelearnaboutday.com/static/js/main.8c781fd2.js.map",
-    "787.234eb6fb.chunk.js.map": "/collegelearnaboutday.com/static/js/787.234eb6fb.chunk.js.map"
+    "main.css": "/activitree-cld/static/css/main.152979be.css",
+    "main.js": "/activitree-cld/static/js/main.3d69e264.js",
+    "static/js/787.234eb6fb.chunk.js": "/activitree-cld/static/js/787.234eb6fb.chunk.js",
+    "static/media/asucd.png": "/activitree-cld/static/media/asucd.68b595a50028858b9bd4.png",
+    "static/media/ActivitreeLogo.png": "/activitree-cld/static/media/ActivitreeLogo.b36bf662d9708aa42f36.png",
+    "index.html": "/activitree-cld/index.html",
+    "main.152979be.css.map": "/activitree-cld/static/css/main.152979be.css.map",
+    "main.3d69e264.js.map": "/activitree-cld/static/js/main.3d69e264.js.map",
+    "787.234eb6fb.chunk.js.map": "/activitree-cld/static/js/787.234eb6fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.152979be.css",
-    "static/js/main.8c781fd2.js"
+    "static/js/main.3d69e264.js"
   ]
 }
