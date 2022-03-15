@@ -1,4 +1,10 @@
 .sponsorImages {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+.sponsor {
+    width: 20%;
+    height: 20%;
 }

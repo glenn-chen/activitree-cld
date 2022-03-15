@@ -18,7 +18,7 @@ export default class Footer extends Component {
                     <button className="buttonLogo"><img src="../../../Website.png"></img></button>
                 </a>
             </div>
-            <h2>©2022 with ❤️ by Activitree</h2>
+            <h2 className="footerText">©2022 with ❤️ by Activitree</h2>
             </React.Fragment>
         );
     }
