@@ -60,6 +60,10 @@ button {
     cursor: pointer;
 }
 
+button.none {
+    visibility: hidden;
+}
+
 button.white {
     border: 1px solid #FFFFFF;
     color: #FFFFFF;

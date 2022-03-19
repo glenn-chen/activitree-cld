@@ -8,8 +8,9 @@ export default class Shoutouts extends Component{
             <React.Fragment>
                 <div className = "shoutouts-heading">
                     <ShortInfoBlock
-                            header="THANK YOU!"
-                            description="A HUGE SHOUTOUT TO EVERYONE WHO MADE THIS EVENT POSSIBLE!"
+                        header="THANK YOU!"
+                        description="A HUGE SHOUTOUT TO EVERYONE WHO MADE THIS EVENT POSSIBLE!"
+                        hasButton="false"
                     />  
                 </div>
                 <div className="grid">

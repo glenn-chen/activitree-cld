@@ -18,6 +18,9 @@ export default class ShortInfoBlock extends Component {
         if (this.props.textSize === "big")
             textVersion += " big"
         
+        if (this.props.hasButton == "false")
+            buttonVersion = "none";
+        
         return (
             <div class={containerVersion}>
                 <br />
