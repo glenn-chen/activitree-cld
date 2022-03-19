@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './sponsors.css';
 import ASUCDLogo from '../../assets/asucd.png'
 import SRRCLogo from '../../assets/srrc.png'
-import CFCLogo from '../../../cfc.png'
+import CFCLogo from '../../assets/cfc.png'
 
 export default class Sponsors extends Component{
     render() {
