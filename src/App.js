@@ -16,6 +16,7 @@ export default function App() {
       <div>
         <NavBar />
         <Welcome />
+        <Schedule />
         <Shoutouts />        
         <About />
         <Sponsors />

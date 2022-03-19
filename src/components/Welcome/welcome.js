@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './welcome.css';
 import ShortInfoBlock from '../ShortInfoBlock/shortInfoBlock';
-
+import WelcomeImage from '../../assets/WelcomeBackground.png'
 
 export default class Welcome extends Component {    
     render() {
@@ -10,7 +10,7 @@ export default class Welcome extends Component {
                 <div class="container">
                     <img
                         class="welcomeImage"
-                        src="../../../WelcomeBackground.png"
+                        src={WelcomeImage}
                         alt="WelcomeBackgroundpng">
                     </img>
                     <div class="centered">
