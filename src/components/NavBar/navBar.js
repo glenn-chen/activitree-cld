@@ -13,10 +13,10 @@ export default class NavBar extends Component {
                 <h2 className="navBarTitle">College Learn-About Day!</h2>
                 <hr className="navBarLine"></hr>
                 <div className="navBarRow">
-                
+
                     <a
                         className="navBarLink"
-                        href="/activitree-cld/welcome"
+                        href="/#/activitree-cld/welcome"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -24,7 +24,7 @@ export default class NavBar extends Component {
                     </a>
                     <a
                         className="navBarLink"
-                        href="/activitree-cld/schedule"
+                        href="/#/activitree-cld/schedule"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -32,7 +32,7 @@ export default class NavBar extends Component {
                     </a>
                     <a
                         className="navBarLink"
-                        href="/activitree-cld/shoutouts"
+                        href="/#/activitree-cld/shoutouts"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -40,7 +40,7 @@ export default class NavBar extends Component {
                     </a>
                     <a
                         className="navBarLink"
-                        href="/activitree-cld/about"
+                        href="/#/activitree-cld/about"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -48,7 +48,7 @@ export default class NavBar extends Component {
                     </a>
                     <a
                         className="navBarLink"
-                        href="/activitree-cld/sponsors"
+                        href="/#/activitree-cld/sponsors"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
