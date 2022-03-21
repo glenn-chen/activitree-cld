@@ -2,12 +2,12 @@ import './App.css';
 
 import React from 'react';
 import NavBar from './components/NavBar/navBar';
-import Welcome from './components/Welcome/welcome';
-import Schedule from './components/Schedule/schedule';
-import Shoutouts from './components/Shoutouts/shoutouts';
-import Sponsors from './components/Sponsors/sponsors';
+import Welcome from './components/Welcome';
+import Schedule from './components/Schedule';
+import Shoutouts from './components/Shoutouts';
+import Sponsors from './components/Sponsors';
 import Footer from './components/Footer/footer';
-import About from './components/AboutUs/aboutUs';
+import About from './components/AboutUs';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 export default function App() {
