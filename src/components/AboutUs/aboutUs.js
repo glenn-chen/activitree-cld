@@ -18,7 +18,7 @@ export default class About extends Component{
                 <Carousel slides={CarouselData} />;
                 <div className="aboutUsBox">
                     <div class="item">
-                        <img src={SHOUTOUTSImg} class="topImage"></img>
+                        <img class="topImage"></img>
                         <h2>SHOUTOUT TO</h2>
                         <h1>OUR HIGH SCHOOLERS!</h1>
                         <h3>
@@ -28,7 +28,7 @@ export default class About extends Component{
                     </div>
 
                     <div class="item">
-                        <img src={SHOUTOUTSImg} class="topImage"></img>
+                        <img class="topImage"></img>
                         <h2>SHOUTOUT TO</h2>
                         <h1>Brianna Wong</h1>
                         <h3>
