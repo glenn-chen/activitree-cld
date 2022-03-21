@@ -17,7 +17,7 @@ export default class NavBar extends Component {
                     <a
                         className="navBarLink"
                         href="/activitree-cld/welcome"
-                        target="_blank"
+                        target="_self"
                         rel="noopener noreferrer"
                     >
                         Welcome
@@ -25,7 +25,7 @@ export default class NavBar extends Component {
                     <a
                         className="navBarLink"
                         href="/activitree-cld/schedule"
-                        target="_blank"
+                        target="_self"
                         rel="noopener noreferrer"
                     >
                         Schedule
@@ -33,7 +33,7 @@ export default class NavBar extends Component {
                     <a
                         className="navBarLink"
                         href="/activitree-cld/shoutouts"
-                        target="_blank"
+                        target="_self"
                         rel="noopener noreferrer"
                     >
                         Shoutouts
@@ -41,7 +41,7 @@ export default class NavBar extends Component {
                     <a
                         className="navBarLink"
                         href="/activitree-cld/about"
-                        target="_blank"
+                        target="_self"
                         rel="noopener noreferrer"
                     >
                         About Us
@@ -49,7 +49,7 @@ export default class NavBar extends Component {
                     <a
                         className="navBarLink"
                         href="/activitree-cld/sponsors"
-                        target="_blank"
+                        target="_self"
                         rel="noopener noreferrer"
                     >
                         Sponsors
