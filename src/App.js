@@ -15,11 +15,11 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/activitree-cld" element={<React.Fragment><NavBar/><Welcome/><Footer/></React.Fragment>}/>
-        <Route path="/activitree-cld/Welcome" element={<React.Fragment><NavBar/><Welcome/><Footer/></React.Fragment>}/>
-        <Route path="/activitree-cld/schedule" element={<React.Fragment><NavBar/><Schedule/><Footer/></React.Fragment>}/>
-        <Route path="/activitree-cld/shoutouts" element={<React.Fragment><NavBar/><Shoutouts/><Footer/></React.Fragment>}/>
-        <Route path="/activitree-cld/about" element={<React.Fragment><NavBar/><About/><Footer/></React.Fragment>}/>
-        <Route path="/activitree-cld/sponsors" element={<React.Fragment><NavBar/><Sponsors/><Footer/></React.Fragment>}/>
+        <Route path="/Welcome/index.js" element={<React.Fragment><NavBar/><Welcome/><Footer/></React.Fragment>}/>
+        <Route path="/Schedule/index.js" element={<React.Fragment><NavBar/><Schedule/><Footer/></React.Fragment>}/>
+        <Route path="/Shoutouts/index.js" element={<React.Fragment><NavBar/><Shoutouts/><Footer/></React.Fragment>}/>
+        <Route path="/AboutUs/index.js" element={<React.Fragment><NavBar/><About/><Footer/></React.Fragment>}/>
+        <Route path="/Sponsors/index.js" element={<React.Fragment><NavBar/><Sponsors/><Footer/></React.Fragment>}/>
       </Routes>
     </BrowserRouter>
   );
