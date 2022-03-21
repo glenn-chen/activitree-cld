@@ -39,7 +39,7 @@ export default class Schedule extends Component {
                 <ShortInfoBlock
                     version="blue"
                     buttonText="GET ZOOM LINK"
-                    link=""
+                    link="https://ucdavis.zoom.us/j/92110391733"
                 />
             </div>
         )
