@@ -8,21 +8,18 @@ import Shoutouts from './components/Shoutouts/shoutouts';
 import Sponsors from './components/Sponsors/sponsors';
 import Footer from './components/Footer/footer';
 import About from './components/AboutUs/aboutUs';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 export default function App() {
   return (
-    <Router>
-      <div>
-        <NavBar />
-        <Welcome />
-        <Schedule />
-        <Shoutouts />        
-        <About />
-        <Sponsors />
-        <Footer />
-      </div>
-    </Router>
-    
+    <BrowserRouter>
+      <Routes>
+        <Route path="/activitree-cld" element={<NavBar/>}/>
+        <Route path="/activitree-cld/schedule" element={<Schedule/>}/>
+        <Route path="/activitree-cld/shoutouts" element={<Shoutouts/>}/>
+        <Route path="/activitree-cld/about" element={<About/>}/>
+        <Route path="/activitree-cld/sponsors" element={<Sponsors/>}/>>
+      </Routes>
+    </BrowserRouter>
   );
 }
