@@ -10,7 +10,7 @@ export default class Sponsors extends Component{
         return(
             <React.Fragment>
                 <ShortInfoBlock
-                    header="Sponsors!"
+                    header="Our Sponsors!"
                     hasButton="false"
                 />  
                 <div className = "sponsorImages">
