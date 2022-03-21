@@ -1,0 +1,43 @@
+.carousel{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    size: 100%;
+}
+
+.carouselImage{ 
+    border-radius: 10px;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.rightArrow{
+    order: 3;
+    font-size: 3rem;
+    color: lightblue;
+    opacity: 800;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.leftArrow {
+    font-size: 3rem;
+    color: lightblue;
+    opacity: 800;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+  
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}

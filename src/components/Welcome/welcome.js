@@ -20,7 +20,7 @@ export default class Welcome extends Component {
                             version="clear"
                             textSize="big"
                             buttonText="GET ZOOM LINK"
-                            link=""
+                            link="https://ucdavis.zoom.us/j/92110391733"
                         />
                     </div>
                 </div>
@@ -28,7 +28,7 @@ export default class Welcome extends Component {
                     header="Join the College Learn-About Day Discord!"
                     version="blue"
                     buttonText="JOIN THE DISCORD!"
-                    link=""
+                    link="https://discord.gg/CS2J3WJBzv"
                 />
                 <ShortInfoBlock
                     header="Draw your favorite food and sign your name on the Whiteboard!"

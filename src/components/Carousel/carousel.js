@@ -1,19 +1,38 @@
-import React, {Component} from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import React, {useState} from 'react';
+import { CarouselData } from './carouselData.js';
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 import './carousel.css';
 
-export default class Carousel extends Component {
-    render() {
-        return (
-            <Carousel>
-                <div>
-                    <img src="../../../NumeradeLogo.png"></img>
-                </div>
-                <div>
-                    <img src="../../../Website.png"></img>
-                </div>
-            </Carousel>
-        );
+const Carousel = ( {slides} ) => {
+    const [current, setCurrent] = useState(0)
+    const length = slides.length
+
+    const nextSlide = () => {
+        setCurrent(current === length - 1 ? 0 : current + 1);
+    };
+
+    const prevSlide = () => {
+        setCurrent(current === 0 ? length - 1 : current - 1);
+    };
+
+    if (!Array.isArray(slides) || slides.length <= 0) {
+        return null;
     }
-}
+        
+    return (
+        <section className="carousel">
+            <AiOutlineArrowLeft className="leftArrow" onClick={prevSlide}/>
+            <AiOutlineArrowRight className="rightArrow" onClick={nextSlide}/>
+            {CarouselData.map((slide, index) => {
+                return (
+                    <div className={index === current ? 'slide active' : 'slide'} key={index}> {index === current && (
+                        <img src={slide.image} className='carouselImage' />
+                    )}
+                </div>
+                );
+            })}
+        </section>
+    );
+};
+
+export default Carousel;
