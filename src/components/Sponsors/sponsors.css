@@ -1,5 +1,6 @@
 .sponsorImages {
     display: flex;
+    margin-top: -15%;
     justify-content: space-evenly;
     align-items: center;
 }

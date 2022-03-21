@@ -14,11 +14,12 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/activitree-cld" element={<NavBar/>}/>
-        <Route path="/activitree-cld/schedule" element={<Schedule/>}/>
-        <Route path="/activitree-cld/shoutouts" element={<Shoutouts/>}/>
-        <Route path="/activitree-cld/about" element={<About/>}/>
-        <Route path="/activitree-cld/sponsors" element={<Sponsors/>}/>>
+        <Route path="/activitree-cld" element={<React.Fragment><NavBar/><Welcome/><Footer/></React.Fragment>}/>
+        <Route path="/activitree-cld/Welcome" element={<React.Fragment><NavBar/><Welcome/><Footer/></React.Fragment>}/>
+        <Route path="/activitree-cld/schedule" element={<React.Fragment><NavBar/><Schedule/><Footer/></React.Fragment>}/>
+        <Route path="/activitree-cld/shoutouts" element={<React.Fragment><NavBar/><Shoutouts/><Footer/></React.Fragment>}/>
+        <Route path="/activitree-cld/about" element={<React.Fragment><NavBar/><About/><Footer/></React.Fragment>}/>
+        <Route path="/activitree-cld/sponsors" element={<React.Fragment><NavBar/><Sponsors/><Footer/></React.Fragment>}/>
       </Routes>
     </BrowserRouter>
   );
