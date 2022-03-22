@@ -14,16 +14,16 @@ import { HashRouter, Route, Routes } from 'react-router-dom'
 
 export default function App() {
   return (
-    <HashRouter>
+    <HashRouter basename='/activitree-cld'>
+      <NavBar/>
       <Routes>
-        <Route path="/activitree-cld" element={<React.Fragment><NavBar/><Welcome/><Footer/></React.Fragment>}/>
-        <Route path="/activitree-cld/schedule" element={<React.Fragment><NavBar/><Schedule/><Footer/></React.Fragment>}/>
-        <Route path="/activitree-cld/shoutouts" element={<React.Fragment><NavBar/><Shoutouts/><Footer/></React.Fragment>}/>
-        <Route path="/activitree-cld/about" element={<React.Fragment><NavBar/><About/><Footer/></React.Fragment>}/>
-        <Route path="/activitree-cld/sponsors" element={<React.Fragment><NavBar/><Sponsors/><Footer/></React.Fragment>}/>
+        <Route path="/" element={<Welcome/>}/>
+        <Route path="/schedule" element={<Schedule/>}/>
+        <Route path="/shoutouts" element={<Shoutouts/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/sponsors" element={<Sponsors/>}/>
       </Routes>
+      <Footer/>
     </HashRouter>
   );
 }
-
-//<Route path="/activitree-cld" element={<React.Fragment><NavBar/><Welcome/><Footer/></React.Fragment>}/>
