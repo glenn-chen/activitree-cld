@@ -16,7 +16,7 @@ export default class NavBar extends Component {
 
                     <a
                         className="navBarLink"
-                        href="/#/activitree-cld/"
+                        href="/activitree-cld/"
                         target="_self"
                         rel="noopener noreferrer"
                     >
