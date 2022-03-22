@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e4be32c.css",
-    "main.js": "/static/js/main.31c92f2a.js",
-    "static/js/787.234eb6fb.chunk.js": "/static/js/787.234eb6fb.chunk.js",
-    "static/media/About7.png": "/static/media/About7.2fd098438fb12a8316cb.png",
-    "static/media/About5.png": "/static/media/About5.e658ec52e59e9880adba.png",
-    "static/media/About4.png": "/static/media/About4.9dd0507ca75d0022441c.png",
-    "static/media/About9.png": "/static/media/About9.244dd641cd202258ede0.png",
-    "static/media/About6.png": "/static/media/About6.43123fb7eb4b558c6d36.png",
-    "static/media/About8.png": "/static/media/About8.c55a12a4034737ad1b98.png",
-    "static/media/About3.png": "/static/media/About3.98403a348c4f787c9032.png",
-    "static/media/About2.png": "/static/media/About2.4d2c6ff6320c64b6ce16.png",
-    "static/media/About1.png": "/static/media/About1.b9abb97d03323e47224e.png",
-    "static/media/srrc.png": "/static/media/srrc.07929d9817f32580df95.png",
-    "static/media/About10.png": "/static/media/About10.3192a1142a6e25162f93.png",
-    "static/media/cfc.png": "/static/media/cfc.5326cd26d0e635437a67.png",
-    "static/media/asucd.png": "/static/media/asucd.68b595a50028858b9bd4.png",
-    "static/media/ActivitreeLogo.png": "/static/media/ActivitreeLogo.b36bf662d9708aa42f36.png",
-    "static/media/Shoutouts.png": "/static/media/Shoutouts.d79a27f481823a72ad9e.png",
-    "index.html": "/index.html",
-    "main.8e4be32c.css.map": "/static/css/main.8e4be32c.css.map",
-    "main.31c92f2a.js.map": "/static/js/main.31c92f2a.js.map",
-    "787.234eb6fb.chunk.js.map": "/static/js/787.234eb6fb.chunk.js.map"
+    "main.css": "/activitree-cld/static/css/main.8e4be32c.css",
+    "main.js": "/activitree-cld/static/js/main.d670c3a0.js",
+    "static/js/787.234eb6fb.chunk.js": "/activitree-cld/static/js/787.234eb6fb.chunk.js",
+    "static/media/About7.png": "/activitree-cld/static/media/About7.2fd098438fb12a8316cb.png",
+    "static/media/About5.png": "/activitree-cld/static/media/About5.e658ec52e59e9880adba.png",
+    "static/media/About4.png": "/activitree-cld/static/media/About4.9dd0507ca75d0022441c.png",
+    "static/media/About9.png": "/activitree-cld/static/media/About9.244dd641cd202258ede0.png",
+    "static/media/About6.png": "/activitree-cld/static/media/About6.43123fb7eb4b558c6d36.png",
+    "static/media/About8.png": "/activitree-cld/static/media/About8.c55a12a4034737ad1b98.png",
+    "static/media/About3.png": "/activitree-cld/static/media/About3.98403a348c4f787c9032.png",
+    "static/media/About2.png": "/activitree-cld/static/media/About2.4d2c6ff6320c64b6ce16.png",
+    "static/media/About1.png": "/activitree-cld/static/media/About1.b9abb97d03323e47224e.png",
+    "static/media/srrc.png": "/activitree-cld/static/media/srrc.07929d9817f32580df95.png",
+    "static/media/About10.png": "/activitree-cld/static/media/About10.3192a1142a6e25162f93.png",
+    "static/media/cfc.png": "/activitree-cld/static/media/cfc.5326cd26d0e635437a67.png",
+    "static/media/asucd.png": "/activitree-cld/static/media/asucd.68b595a50028858b9bd4.png",
+    "static/media/ActivitreeLogo.png": "/activitree-cld/static/media/ActivitreeLogo.b36bf662d9708aa42f36.png",
+    "static/media/Shoutouts.png": "/activitree-cld/static/media/Shoutouts.d79a27f481823a72ad9e.png",
+    "index.html": "/activitree-cld/index.html",
+    "main.8e4be32c.css.map": "/activitree-cld/static/css/main.8e4be32c.css.map",
+    "main.d670c3a0.js.map": "/activitree-cld/static/js/main.d670c3a0.js.map",
+    "787.234eb6fb.chunk.js.map": "/activitree-cld/static/js/787.234eb6fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8e4be32c.css",
-    "static/js/main.31c92f2a.js"
+    "static/js/main.d670c3a0.js"
   ]
 }
