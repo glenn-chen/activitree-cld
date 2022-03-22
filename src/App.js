@@ -18,10 +18,10 @@ export default function App() {
       <NavBar/>
       <Routes>
         <Route path="/" element={<Welcome/>}/>
-        <Route path="/activitree-cld/schedule" element={<Schedule/>}/>
-        <Route path="/activitree-cld/shoutouts" element={<Shoutouts/>}/>
-        <Route path="/activitree-cld/about" element={<About/>}/>
-        <Route path="/activitree-cld/sponsors" element={<Sponsors/>}/>
+        <Route path="/schedule" element={<Schedule/>}/>
+        <Route path="/shoutouts" element={<Shoutouts/>}/>
+        <Route path="/about" element={<About/>}/>
+        <Route path="/sponsors" element={<Sponsors/>}/>
       </Routes>
       <Footer/>
     </HashRouter>
