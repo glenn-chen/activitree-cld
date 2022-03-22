@@ -9,7 +9,7 @@ export default class Shoutouts extends Component{
                 <div className = "shoutouts-heading">
                     <ShortInfoBlock
                         header="THANK YOU!"
-                        description="A HUGE SHOUTOUT TO EVERYONE WHO MADE THIS EVENT POSSIBLE!"
+                        description="A huge shoutout to everyone who made this event possible!"
                         hasButton="false"
                     />  
                 </div>

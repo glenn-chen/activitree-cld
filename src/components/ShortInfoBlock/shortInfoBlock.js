@@ -9,6 +9,7 @@ export default class ShortInfoBlock extends Component {
         // Default text/buttons are blue
         let textVersion = "blue";
         let buttonVersion = "blue";
+        let divVersion = "center";
 
         // White text/buttons on blue background
         if (this.props.version === "blue") {
@@ -18,8 +19,10 @@ export default class ShortInfoBlock extends Component {
         if (this.props.textSize === "big")
             textVersion += " big"
         
-        if (this.props.hasButton == "false")
+        if (this.props.hasButton == "false"){
+            divVersion = "none";
             buttonVersion = "none";
+        }
         
         return (
             <div class={containerVersion}>
@@ -28,7 +31,7 @@ export default class ShortInfoBlock extends Component {
                     {this.props.header}
                 </h3>
                 <h4 class={textVersion}>{this.props.description}</h4>
-                <div class="center">
+                <div class={divVersion}>
                     <a class="button-link" href={this.props.link}>
                     <button class={buttonVersion}>
                         {this.props.buttonText}

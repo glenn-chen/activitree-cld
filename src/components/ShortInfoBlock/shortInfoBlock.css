@@ -16,6 +16,11 @@
     align-items: center;
 }
 
+.none{
+    visibility: hidden;
+    size: 0%;
+}
+
 h3 {
     margin-top: 7%;
     margin-bottom: 5%;
