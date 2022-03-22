@@ -13,10 +13,10 @@ export default class NavBar extends Component {
                 <h2 className="navBarTitle">College Learn-About Day!</h2>
                 <hr className="navBarLine"></hr>
                 <div className="navBarRow">
-                
+
                     <a
                         className="navBarLink"
-                        href="/activitree-cld/Welcome/index.js"
+                        href="/#/activitree-cld/welcome"
                         target="_self"
                         rel="noopener noreferrer"
                     >
@@ -24,7 +24,7 @@ export default class NavBar extends Component {
                     </a>
                     <a
                         className="navBarLink"
-                        href="/activitree-cld/Schedule/index.js"
+                        href="/#/activitree-cld/schedule"
                         target="_self"
                         rel="noopener noreferrer"
                     >
@@ -32,7 +32,7 @@ export default class NavBar extends Component {
                     </a>
                     <a
                         className="navBarLink"
-                        href="/activitree-cld/Shoutouts/index.js"
+                        href="/#/activitree-cld/shoutouts"
                         target="_self"
                         rel="noopener noreferrer"
                     >
@@ -40,7 +40,7 @@ export default class NavBar extends Component {
                     </a>
                     <a
                         className="navBarLink"
-                        href="/activitree-cld/AboutUs/index.js"
+                        href="/#/activitree-cld/about"
                         target="_self"
                         rel="noopener noreferrer"
                     >
@@ -48,7 +48,7 @@ export default class NavBar extends Component {
                     </a>
                     <a
                         className="navBarLink"
-                        href="/activitree-cld/Sponsors/index.js"
+                        href="/#/activitree-cld/sponsors"
                         target="_self"
                         rel="noopener noreferrer"
                     >

@@ -17,7 +17,7 @@ export default class About extends Component{
                 />
                 <Carousel slides={CarouselData} />;
                 <div className="aboutUsBox">
-                    
+                    <div className=""></div>
                 </div>
             </React.Fragment>
         );
