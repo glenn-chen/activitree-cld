@@ -17,7 +17,6 @@ export default function App() {
     <HashRouter>
       <Routes>
         <Route path="/activitree-cld" element={<React.Fragment><NavBar/><Welcome/><Footer/></React.Fragment>}/>
-        <Route path="/activitree-cld/welcome" element={<React.Fragment><NavBar/><Welcome/><Footer/></React.Fragment>}/>
         <Route path="/activitree-cld/schedule" element={<React.Fragment><NavBar/><Schedule/><Footer/></React.Fragment>}/>
         <Route path="/activitree-cld/shoutouts" element={<React.Fragment><NavBar/><Shoutouts/><Footer/></React.Fragment>}/>
         <Route path="/activitree-cld/about" element={<React.Fragment><NavBar/><About/><Footer/></React.Fragment>}/>
