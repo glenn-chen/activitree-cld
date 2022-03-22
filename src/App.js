@@ -7,7 +7,7 @@ import Schedule from './components/Schedule';
 import Shoutouts from './components/Shoutouts';
 import Sponsors from './components/Sponsors';
 import Footer from './components/Footer/footer';
-import About from './components/AboutUs/aboutUs';
+import About from './components/AboutUs';
 import { HashRouter, Route, Routes } from 'react-router-dom'
 
 
