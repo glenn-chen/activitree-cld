@@ -34,7 +34,7 @@ export default class Welcome extends Component {
                     header="Draw your favorite food and sign your name on the Whiteboard!"
                     version="white"
                     buttonText="Take me to the whiteboard!"
-                    link=""
+                    link="https://jamboard.google.com/d/1q8xJl-1bV0yzqplhqZnN1RVOC82fUyOPUpJ4xR1CzGI/edit?usp=sharing"
                 />
             </div>
         );

@@ -32,7 +32,7 @@ export default class ShortInfoBlock extends Component {
                 </h3>
                 <h4 class={textVersion}>{this.props.description}</h4>
                 <div class={divVersion}>
-                    <a class="button-link" href={this.props.link}>
+                    <a class="button-link" href={this.props.link} target="_blank">
                     <button class={buttonVersion}>
                         {this.props.buttonText}
                     </button> </a>
