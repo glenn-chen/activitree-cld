@@ -17,7 +17,7 @@ export default class Footer extends Component {
                     <button className="buttonLogo" ><img src={FacebookLogo}></img></button>
                 </a>
 
-                <a href = "https://learnactivitree.webflow.io/">
+                <a href = "https://learnactivitree.wixsite.com/learnactivitree">
                     <button className="buttonLogo"><img src={WebsiteLogo}></img></button>
                 </a>
             </div>
