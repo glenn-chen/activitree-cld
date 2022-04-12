@@ -20,7 +20,7 @@ export default class Welcome extends Component {
                             version="clear"
                             textSize="big"
                             buttonText="SIGN UP FORM"
-                            link="https://docs.google.com/forms/d/1YcnC-avcZVBX_OakJNLsc4Vha6NZ6NHWx4HPaq4-BJE/edit "
+                            link="https://docs.google.com/forms/d/e/1FAIpQLSfxwsoYy5TJJDgKhUrco_zJIujXfftQEhcDiPVuzbzlTIedrg/viewform"
                         />
                     </div>
                 </div>
