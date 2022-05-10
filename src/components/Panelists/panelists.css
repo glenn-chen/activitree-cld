@@ -29,6 +29,7 @@
     max-height: 45%;
     text-align: center;
     flex-basis: auto;
+    margin-bottom: 20px;
 }
 
 .item h2{
@@ -44,7 +45,7 @@
     font-weight: bold;
 }
 
-.item h3{
+.item p{
     padding-top: 2%;
     color: #06234F;
     font-size: 90%;
@@ -58,8 +59,9 @@
 }
 
 .topImage{
-    height: 40px;
-    width: 35px;
+    margin-top: 30px;
+    max-width: 140px;
+    border-radius: 4px;
 }
 
 @media (max-width: 768px) {

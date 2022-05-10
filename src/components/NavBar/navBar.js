@@ -32,6 +32,14 @@ export default class NavBar extends Component {
                     </a>
                     <a
                         className="navBarLink"
+                        href="#/panelists"
+                        target="_self"
+                        rel="noopener noreferrer"
+                    >
+                        Panelists
+                    </a>
+                    <a
+                        className="navBarLink"
                         href="#/about"
                         target="_self"
                         rel="noopener noreferrer"

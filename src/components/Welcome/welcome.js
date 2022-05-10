@@ -16,7 +16,7 @@ export default class Welcome extends Component {
                     <div class="centered">
                         <ShortInfoBlock
                             header="Welcome to College Learn-About Day!"
-                            description="May 7, 2022"
+                            description="May 13, 2022"
                             version="clear"
                             textSize="big"
                             buttonText="SIGN UP FORM"
