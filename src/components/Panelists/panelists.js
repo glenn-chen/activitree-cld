@@ -28,7 +28,7 @@ export default class Panelists extends Component{
                         <img src={ManmeetPhoto} class="topImage" alt="Manmeet"></img>
                         <h2>SHOUTOUT TO</h2>
                         <h1>Manmeet Kaur</h1>
-                        <p>She/Her/Hers<br />Hi, I'm a second year English and Nutrition major. I enjoy exercising, playing different kinds of sports, creating art, reading, and watching movies/shows.</p>
+                        <p>She/Her/Hers<br />Hi, I'm a second year English major and Nutrition minor. I enjoy exercising, playing different kinds of sports, creating art, reading, and watching movies/shows.</p>
                     </div>
                     <div class="item">
                         <img src={VarshaPhoto} class="topImage" alt="Varsha"></img>
