@@ -19,8 +19,7 @@ export default class Welcome extends Component {
                             description="May 13, 2022"
                             version="clear"
                             textSize="big"
-                            buttonText="SIGN UP FORM"
-                            link="https://docs.google.com/forms/d/e/1FAIpQLSfxwsoYy5TJJDgKhUrco_zJIujXfftQEhcDiPVuzbzlTIedrg/viewform"
+                            hasButton="false"
                         />
                     </div>
                 </div>
@@ -28,7 +27,7 @@ export default class Welcome extends Component {
                     header="Join us online on Zoom!"
                     version="white"
                     buttonText="GET THE LINK"
-                    link="https://ucdavis.zoom.us/j/92110391733"
+                    link="https://ucdavis.zoom.us/j/97597752874"
                 />
                 <ShortInfoBlock
                     header="Draw your favorite food and sign your name on the Whiteboard!"
