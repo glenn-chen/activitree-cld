@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/activitree-cld/static/css/main.60a3946a.css",
-    "main.js": "/activitree-cld/static/js/main.f5d111e7.js",
+    "main.css": "/activitree-cld/static/css/main.b6afecf4.css",
+    "main.js": "/activitree-cld/static/js/main.b6a8f9fb.js",
     "static/js/787.234eb6fb.chunk.js": "/activitree-cld/static/js/787.234eb6fb.chunk.js",
     "static/media/BriannaPhoto.png": "/activitree-cld/static/media/BriannaPhoto.c9dbf984a43ff3c53998.png",
     "static/media/About7.png": "/activitree-cld/static/media/About7.2fd098438fb12a8316cb.png",
@@ -26,12 +26,12 @@
     "static/media/Shoutouts.png": "/activitree-cld/static/media/Shoutouts.d79a27f481823a72ad9e.png",
     "static/media/panera.svg": "/activitree-cld/static/media/panera.16ae4ed6146ec65f67a9dbfb638a69f2.svg",
     "index.html": "/activitree-cld/index.html",
-    "main.60a3946a.css.map": "/activitree-cld/static/css/main.60a3946a.css.map",
-    "main.f5d111e7.js.map": "/activitree-cld/static/js/main.f5d111e7.js.map",
+    "main.b6afecf4.css.map": "/activitree-cld/static/css/main.b6afecf4.css.map",
+    "main.b6a8f9fb.js.map": "/activitree-cld/static/js/main.b6a8f9fb.js.map",
     "787.234eb6fb.chunk.js.map": "/activitree-cld/static/js/787.234eb6fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60a3946a.css",
-    "static/js/main.f5d111e7.js"
+    "static/css/main.b6afecf4.css",
+    "static/js/main.b6a8f9fb.js"
   ]
 }
