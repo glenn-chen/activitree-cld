@@ -26,15 +26,9 @@ export default class Welcome extends Component {
                 </div>
                 <ShortInfoBlock
                     header="Join us online on Zoom!"
-                    version="blue"
+                    version="white"
                     buttonText="GET THE LINK"
                     link="https://ucdavis.zoom.us/j/92110391733"
-                />
-                <ShortInfoBlock
-                    header="Join the College Learn-About Day Discord!"
-                    version="white"
-                    buttonText="JOIN THE DISCORD!"
-                    link="https://discord.gg/CS2J3WJBzv"
                 />
                 <ShortInfoBlock
                     header="Draw your favorite food and sign your name on the Whiteboard!"

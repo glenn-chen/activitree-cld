@@ -53,7 +53,7 @@ export default class Panelists extends Component{
                         <img src={ArnavPhoto} class="topImage" alt="Arnav"></img>
                         <h2>SHOUTOUT TO</h2>
                         <h1>Arnav Rastogi</h1>
-                        <p>He/Him/His<br />Hi, I'm a third year Computer Science major. I like playing table tennis, watching soccer and Formula 1!</p>
+                        <p>He/Him/His<br />Hi, I'm a second year Computer Science major. I like playing table tennis, watching soccer and Formula 1!</p>
                     </div>
                 </div>
             </React.Fragment>
